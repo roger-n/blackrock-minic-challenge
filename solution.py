@@ -13,3 +13,5 @@ for i in range(len(img1)):
 
 plt.imshow(imgs)
 plt.show()
+
+imageio.imwrite('solution.jpg', imgs)
